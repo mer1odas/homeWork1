@@ -1,0 +1,5 @@
+file = open("txt.txt")
+a = file.read()
+print(a)
+a = a.split("\n")
+print(a)
