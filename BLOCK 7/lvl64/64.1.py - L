@@ -1,0 +1,4 @@
+import datetime
+file = open("txt.txt", "r+")
+file.read()
+file.write("\n" + str(datetime.datetime.now()))
